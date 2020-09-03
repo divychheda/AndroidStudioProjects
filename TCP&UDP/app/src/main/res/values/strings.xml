@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Two Activities</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="message_received">Message Received</string>
+    <string name="msg">Enter your message here</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
+    <string name="welcome">Welcome</string>
+    <string name="choose_a_protocol_for_transfer">Choose a protocol for transfer</string>
+    <string name="tcp">TCP</string>
+    <string name="udp">UDP</string>
+    <string name="enter_your_message">Enter Your Message</string>
+    <string name="send_to_pc">Send to PC</string>
+    <string name="connect_s">Connect</string>
+    <string name="close_sock">Close</string>
+    <string name="connect_to_pc">Connect To PC</string>
+    <string name="port_no">Port No</string>
+    <string name="ip_address">IP-Address</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send">SEND</string>
+    <string name="app_name2">Data Transfer</string>
+    <string name="tcpvia">via TCP</string>
+    <string name="udpvia">via UDP</string>
+</resources>

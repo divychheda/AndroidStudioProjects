@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".TC_transfer">
+
+    <EditText
+        android:id="@+id/etIP"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ip_address"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etPort"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etIP"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:hint="@string/port_no"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPort"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/connect_to_pc"
+        android:textColor="@android:color/white"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+       />
+
+    <TextView
+        android:id = "@+id/tvMessages"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_above = "@+id/etMessage"
+        android:layout_below = "@+id/btnConnect"
+        android:inputType = "textMultiLine"
+        android:textStyle="bold"
+        android:autofillHints="" />
+    <EditText
+        android:id = "@+id/etMessage"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_above = "@+id/btnSend"
+        android:hint = "@string/enter_message"
+        android:inputType = "text"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/send"
+        android:textColor="@android:color/white"
+        />
+</RelativeLayout>

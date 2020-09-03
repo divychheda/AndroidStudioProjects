@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ColorMatchGame</string>
+    <string name="start_game">Start</string>
+    <string name="matching_check">Match?</string>
+    <string name="greet">Ready Player</string>
+    <string name="initial_score">0</string>
+    <string name="time_remaining">60</string>
+    <string name="name">-DivyChheda</string>
+</resources>
